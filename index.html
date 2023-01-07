@@ -10,40 +10,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTML 5 Boilerplate</title>
+    <title>Shop Store</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form class="form-inline">
-      <!-- Grid row -->
-      <div class="row">
-        <!-- Grid column -->
-        <div class="col">
-          <!-- Default input -->
-          <input type="text" class="form-control" placeholder="Id" />
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col">
-          <!-- Default input -->
-          <input type="text" class="form-control" placeholder="Brand" />
-        </div>
-        <!-- Grid column -->
-
-        <div class="col">
-          <!-- Default input -->
-          <input type="text" class="form-control" placeholder="Category" />
-        </div>
-
-        <div class="col">
-          <button type="submit" class="btn btn-primary btn-md">Sign in</button>
-        </div>
-      </div>
-
-      <!-- Grid row -->
-    </form>
-
+    <h1 id="brand-details">Brand Details</h1>
+    <table class="brand-table table table-bordered">
+      <thead>
+        <tr>
+          <th scope="col">#Id</th>
+          <th scope="col">Brand</th>
+          <th scope="col">Category</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+        </tr>
+      </tbody>
+    </table>
     <script src="index.js"></script>
   </body>
 </html>

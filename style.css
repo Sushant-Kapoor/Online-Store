@@ -1,0 +1,13 @@
+body {
+  background: url("shop.jpg");
+  background-size: cover contain;
+}
+
+.brand-table {
+  margin: 0 auto;
+  width: 70vw;
+}
+
+#brand-details {
+  text-align: center;
+}
