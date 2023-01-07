@@ -23,19 +23,61 @@
           <th scope="col">Category</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody id="brand-details-body">
         <tr>
-          <th scope="row">1</th>
+          <th>1</th>
           <td>Mark</td>
           <td>Otto</td>
         </tr>
         <tr>
-          <th scope="row">2</th>
+          <th>2</th>
           <td>Jacob</td>
           <td>Thornton</td>
         </tr>
       </tbody>
     </table>
-    <script src="index.js"></script>
+
+    <form id="edit-brand-details">
+      <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="validationDefault01">Id</label>
+          <input
+            type="text"
+            class="form-control"
+            id="Brand-id-input-field"
+            placeholder="Brand Id"
+            value=""
+            required
+          />
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationDefault02">Brand</label>
+          <input
+            type="text"
+            class="form-control"
+            id="Brand-input-field"
+            placeholder="Brand name"
+            value=""
+            required
+          />
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationDefaultUsername">Category</label>
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              id="Category-input-field"
+              placeholder="Category Name"
+              aria-describedby="inputGroupPrepend2"
+              required
+            />
+          </div>
+        </div>
+      </div>
+
+      <button class="btn btn-primary" type="submit">Submit form</button>
+    </form>
+    <script src="script.js"></script>
   </body>
 </html>

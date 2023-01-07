@@ -11,3 +11,9 @@ body {
 #brand-details {
   text-align: center;
 }
+
+#edit-brand-details {
+  width: 70vw;
+  margin: 0 auto;
+  margin-top: 28px;
+}
